@@ -5,8 +5,8 @@ import sys
 
 def main(argv):
       if argv[0] == '-h':
-          print("Encode: urlcoder -e <string_to_encode>")
-          print("Decode: urlcoder -d <string_to_decode>")
+          print("Encode: urlcoder.py -e <string_to_encode>")
+          print("Decode: urlcoder.py -d <string_to_decode>")
       elif argv[0] == '-e':
           print("\n" + parser.quote(" ".join(argv[1:])))
       elif argv[0] == '-d':
