@@ -10,7 +10,7 @@ def main(argv):
       elif argv[0] == '-e':
           print("\n" + parser.quote(" ".join(argv[1:])))
       elif argv[0] == '-d':
-          print("\n" + parser.unquote("\n" + " ".join(argv[1:])))
+          print("\n" + parser.unquote(" ".join(argv[1:])))
       else:
           print("Invalid input. Use -h for help.")
 
